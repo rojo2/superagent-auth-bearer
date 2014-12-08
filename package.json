@@ -1,0 +1,18 @@
+{
+  "name": "superagent-bearer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ROJO 2 <hola@rojo2.com>",
+  "contributors": [
+    {
+      "name": "Aitor Moreno",
+      "email": "aitor@rojo2.com",
+      "url": "http://rojo2.com"
+    }
+  ],
+  "license": "ISC"
+}
