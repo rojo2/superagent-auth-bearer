@@ -18,7 +18,7 @@ require('superagent-auth-bearer')(request);
 
 request
   .get('/')
-  .authBearer('XvWjkh54rs53HmNlKg165DfE')
+  .bearer('XvWjkh54rs53HmNlKg165DfE')
   .end(function(err,res) {
     ...
   });
