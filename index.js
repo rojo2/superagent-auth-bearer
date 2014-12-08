@@ -5,7 +5,7 @@
 module.exports = function(superagent) {
   var Request = superagent.Request;
   if (Request) {
-    Request.prototype.authBearer = function(token) {
+    Request.prototype.bearer = function(token) {
       return this.set('Authorization', 'Bearer ' + token);
     };
   }

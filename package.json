@@ -1,10 +1,14 @@
 {
-  "name": "superagent-bearer",
-  "version": "1.0.0",
-  "description": "",
+  "name": "superagent-auth-bearer",
+  "version": "0.0.1",
+  "description": "Plugin for visionmedia/superagent that adds OAuth2 Bearer Token auth method.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/rojo2/superagent-auth-bearer.git"
   },
   "author": "ROJO 2 <hola@rojo2.com>",
   "contributors": [
